@@ -1,0 +1,152 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+/*creating navbar*/
+.navbar{
+	background-color: #be3144;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+
+}
+.navbar ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.navbar ul li a{
+	display: block;
+	text-decoration: none;
+	color:white;
+	margin-right: 50px;
+	font-size: 20px;
+	padding-top: 30px;
+}
+#intro{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+}
+#intro header{
+	color: white;
+	padding-top:200px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 100px;
+}
+#intro p{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+}
+#more{
+	background-color: #45567d;
+	width: 100%;
+	margin:0;
+}
+#more h1{
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+	text-decoration: underline;
+	/*border-bottom: solid 2px white;*/
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+}
+#more .project-grid{
+	display: grid;
+  	grid-template-columns: auto auto auto;
+  	padding: 10px;
+}
+#more .project-grid a img{
+	width: 370px;
+	height: 300px;
+}
+#more .project-grid a {
+	width:370px;
+	height:370px;
+	background-color:#303841;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	text-decoration: none;
+	transition-property: background-color;
+
+}
+#more .project-grid a:hover{
+	background-color: orange;
+}
+#more .project-grid a p{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: 25px;
+
+}
+#more .project-grid a p code{
+	color:#303841;
+	/*transition:color 0.3s ease-out;*/
+}
+
+
+#more #button{
+	text-align: center;
+}
+#more #show{
+	width: 120px;
+	height: 40px;
+	border-radius:2px;
+	border-style: none;
+	background-color: #303841;
+	color:white;
+	margin-bottom: 50px;
+
+
+}
+#more #show:hover{
+	width: :150px;
+	background-color: #be3144;
+}
+#end{
+	width: 100%;
+	height: 90vh;
+	background-color: #303841;
+}
+#end header{
+	color: white;
+	padding-top:200px;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Secular One', sans-serif;
+}
+#end p{
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+#end ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	transition: transform 0.3s ease-out;
+}
+#end ul li{
+	margin-right:70px;
+	font-size: 30px;
+	color: white;
+	text-shadow:1px 1px black;
+}
+#end ul li:hover{
+	margin-top: 8px;
+}
+#end ul li a{
+	text-decoration: none;
+	color: white;
+}
