@@ -98,7 +98,7 @@
 
 }
 #more .project-grid a p code{
-	color:#303841;
+	color:#ffffff;
 	/*transition:color 0.3s ease-out;*/
 }
 
@@ -153,11 +153,19 @@
 	font-size: 30px;
 	color: white;
 	text-shadow:1px 1px black;
+	transition: color 0.3s ease-out;
 }
 #end ul li:hover{
-	margin-top: 8px;
+	cursor: pointer;
+	color: #be3144;
 }
-#end ul li a{
+#end ul li a {
 	text-decoration: none;
 	color: white;
+	transition: color 0.3s ease-out;
+}
+
+#end ul li a:hover{
+	cursor: pointer;
+	color: #be3144;
 }
